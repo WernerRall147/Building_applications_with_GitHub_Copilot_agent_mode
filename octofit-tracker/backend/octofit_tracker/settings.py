@@ -4,6 +4,7 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
+# Ensure the database engine djongo is properly configured
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
