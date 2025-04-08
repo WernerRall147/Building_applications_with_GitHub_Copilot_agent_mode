@@ -1,0 +1,83 @@
+/* General styles */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation menu */
+nav {
+  background-color: #004080; /* Navy blue */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #004080; /* Navy blue */
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #004080; /* Navy blue */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Buttons */
+button {
+  background-color: #004080; /* Navy blue */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #003366; /* Darker navy blue */
+}
+
+/* Links */
+a {
+  color: #004080; /* Navy blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
