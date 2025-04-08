@@ -2,6 +2,7 @@ INSTALLED_APPS = [
     # ...existing apps...
     'octofit',
     'corsheaders',
+    'octofit_tracker',
 ]
 
 # Ensure the database engine djongo is properly configured
