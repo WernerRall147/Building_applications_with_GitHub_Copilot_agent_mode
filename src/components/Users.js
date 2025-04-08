@@ -5,7 +5,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('https://cautious-space-potato-966wvvp49r4c7q94-8000.app.github.dev/api/users')
+    fetch('https://<your-codespace-name>-8000.app.github.dev/api/users')
       .then(response => response.json())
       .then(data => setUsers(data));
   }, []);
